@@ -63,7 +63,7 @@ function draw()
   background(51);
   Engine.update(engine);
   
-  //Utilize 'rotate' paa o seu retângulo, possuir uma rotação
+  //Utilize 'rotate' para o seu retângulo, possuir uma rotação
   Matter.Body.???(ground1,angle)
  push();
   translate(ground1.position.x,ground1.position.y);
